@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/adaptive.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./img/favicon/site.webmanifest">
+	<title>Travel</title>
+</head>
+
+<body>
+
+	<header>
+
+		<div class="header__wrapper">
+			<div class="logo">Travel Portal </div>
+			<nav class='menu__wrapper'>
+				<ul class="menu">
+					<li class="menu__item"><a class='menu__link' href="#preview">How It Works</a></li>
+					<li class="menu__item"><a class='menu__link' href="#steps">Plan Your Trip</a></li>
+					<li class="menu__item"><a class='menu__link' href="#destinations">Destinations</a></li>
+					<li class="menu__item"><a class='menu__link' href="#stories">Travel Stories</a></li>
+				</ul>
+			</nav>
+			<button class="login">Login</button>
+		</div>
+	</header>
+	<main>
+		<div class="modal__window">
+			<div class="small__menu__wrapper">
+				<img class="cross" src="../img/small_cross.svg" alt="cross">
+				<ul class="small__menu">
+					<li class="small__menu__item"><a class='small__menu__link' href="#preview">How It Works</a></li>
+					<li class="small__menu__item"><a class='small__menu__link' href="#steps">Plan Your Trip</a></li>
+					<li class="small__menu__item"><a class='small__menu__link' href="#destinations">Destinations</a></li>
+					<li class="small__menu__item"><a class='small__menu__link' href="#stories">Travel Stories</a></li>
+					<li class="small__menu__item"><a class='small__menu__link' href="#">Account</a></li>
+					<li class="small__menu__item"><a class='small__menu__link' href="#social__container">Social Media</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="modal__login__window">
+			<div class="modal__login__wrapper">
+				<div class="modal__login">
+					<h2>Log in to your account</h2>
+					<button class="modal__button facebook">Sign In with Facebook</button>
+					<button class="modal__button google">Sign In with Google</button>
+					<div class="modal__or__wrapper">
+						<hr />
+						<p class="modal__or">or</p>
+						<hr />
+					</div>
+					<form class="modal__sign__form" action="#">
+						<label class="modal__form__text first" for="modal__form__login"> E-mail
+							<input id="modal__form__login" class="modal__input" type="email">
+						</label>
+						<label class="modal__form__text second" for="modal__form__password"> Password
+							<input id="modal__form__password" class="modal__input" type="password">
+						</label>
+						<button class="modal__button form__submit" type="submit">Sign In</button>
+					</form>
+					<a href="#" class="modal__forgot">Forgot Your Password?</a>
+					<hr>
+					<p class="modal__text">Don’t have an account? <a href="#" class="modal__register">Register</a></p>
+				</div>
+			</div>
+		</div>
+
+		<section id="preview">
+			<div class="adaptive__menu__wrapper">
+				<div class="adaptive__menu__logo"></div>
+				<div class="adaptive__menu"></div>
+			</div>
+			<div class="preview__wrapper">
+				<h1>Explore the beauty of the World</h1>
+				<p>Receive personalized recommendations for countries, hotels, activities and more</p>
+			</div>
+			<form class='form__wrapper'>
+				<input class="like" type='text' name='like-to-do' placeholder="What would you like to do?">
+				<button type="submit" class="start">Start Planning</button>
+			</form>
+		</section>
+
+		<section id="steps">
+			<h2>3 STEPS TO THE PERFECT TRIP</h2>
+			<div class="wrapper__container__steps">
+				<div class="container">
+					<div class="icon">
+						<div class="bicycle"></div>
+					</div>
+					<span class="text left-text">Tell us what you want to do</span>
+				</div>
+				<div class="container mid">
+					<div class="icon">
+						<div class="date"></div>
+					</div>
+					<span class="text mid-text">Share us preferable dates </span>
+				</div>
+				<div class="container">
+					<div class="icon">
+						<div class="flight"></div>
+					</div>
+					<span class="text right-text">We will give you recommendations</span>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="destinations">
+			<h2>POPULAR DESTINATIONS</h2>
+
+			<div class="wrapper__container__destinations">
+			</div>
+
+			<div class="wrapper__selector">
+				<div class="select__button"></div>
+				<div class="select__button main"></div>
+				<div class="select__button"></div>
+			</div>
+			<button class="find">Find More</button>
+		</section>
+
+		<section id="stories">
+			<h2>TRAVEL STORIES</h2>
+
+			<div class="container__stories">
+				<div class='wr'></div>
+				<div class="story">
+					<div class="story__pic pic1"></div>
+					<div class="story__desciption">
+						<h3>10 Photos of Attractive Thailand</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+							ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+							fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+							mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </p>
+						<a class='read__more' href="#">Read More</a>
+					</div>
+				</div>
+				<div class="story">
+					<div class="story__pic pic2"></div>
+					<div class="story__desciption">
+						<h3>Canyonlands National Park, Utah</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+							ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+							fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+							mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </p>
+						<a class='read__more' href="#">Read More</a>
+					</div>
+				</div>
+				<div class="story">
+					<div class="story__pic pic3"></div>
+					<div class="story__desciption">
+						<h3>I left my heart in the Mountains!</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+							ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+							fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+							mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </p>
+						<a class='read__more' href="#">Read More</a>
+					</div>
+				</div>
+				<div class="story">
+					<div class="story__pic pic4"></div>
+					<div class="story__desciption">
+						<h3>The Longest journey in my life!</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+							ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+							fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+							mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </p>
+						<a class='read__more' href="#">Read More</a>
+					</div>
+				</div>
+				<button class="see">See More</button>
+
+				<footer>
+					<span class="rights">All Rights Reserved © Travel Portal</span>
+					<ul class="social__container" id="social__container">
+						<li><a href="https://github.com/MaDKnighT404">
+								<div class="social__icon si1"></div>
+							</a></li>
+						<li><a href="https://rs.school/js-stage0/">
+								<div class="social__icon si2"></div>
+							</a></li>
+						<li><a href="https://twitter.com/">
+								<div class="social__icon si3"></div>
+							</a></li>
+
+					</ul>
+				</footer>
+			</div>
+
+		</section>
+	</main>
+
+	<script src="index.js"></script>
+</body>
+
+</html>
